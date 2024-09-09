@@ -1,0 +1,88 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.logo img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 680px;
+    top: 60px;
+}
+.texthead{
+    text-align: center;
+    top: 10px;
+    position: relative;
+    top: 10px;
+}
+.logsocialmedia{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 580px;
+    margin-top: 20px;
+}
+.facebook{
+    width: 80px;
+    height: 40px;
+    border: 3px #3bbef8 solid;
+    border-radius: 20px;
+    padding-left: 65px;
+    padding-top: 15px;
+
+}
+.google{
+    width: 80px;
+    height: 40px;
+    border: 3px #3bbef8 solid;
+    border-radius: 20px;
+    padding-left: 65px;
+    padding-top: 15px;
+    margin-left: 30px;
+
+}
+.line{
+    display: flex;
+    position: relative;
+    top: 90px;
+
+}
+.hr1{
+    width: 400px;
+    border: none; /* Remove default border */
+    height: 2px; /* Set height */
+    background-color: #333; /* Set color */
+    margin: 20px 0; /* Add margin */
+    margin-left: 320px;
+}
+span{
+    margin-left: 20px;
+}
+.hr2{
+    width: 400px;
+    border: none; /* Remove default border */
+    height: 2px; /* Set height */
+    background-color: #333; /* Set color */
+    margin: 20px 0; /* Add margin */
+    margin-left: 40px;
+}
+.formlogin{
+    position: relative;
+    top: 100px;
+    width: 60%;
+    height: 700px;
+    border-radius: 20px;
+    border: 3px rgba(225, 225, 225,0.4) solid;
+    left: 320px;
+    background-color: rgb(151, 190, 224); */
+ } 
+
+
+.label1{
+    font-size: 20px;
+    color: black;
+    position:relative;
+    top: 50px;
+    left: 50px;
+}

@@ -1,0 +1,109 @@
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.logo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.navbar{
+    position: relative;
+    top: 55px;
+    left: 100px;
+
+}
+.navbar ul a{
+    justify-content: space-around;
+    margin-left: 50px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.active{
+    color: #007ff4;
+}
+.navbar ul a:hover{
+    color:#007ff4 ;
+}
+.setting{
+    position: relative;
+    left: 150px;
+    top: 60px;
+    font-size: 30px;
+    color: #007ff4;
+
+}
+.profile{
+    margin-left: 80px;
+
+}
+
+.works{
+    margin-top: 30px;
+}
+
+.works{padding: 0 0 90px;}
+.works-content {
+    margin-top: 73px;
+    text-align: center;
+}
+.scpeacilests{
+    display: flex;
+}
+.textheader{
+    text-align: center;
+}
+.spa1{
+    margin-left: 50px;
+}
+
+.spa1-service{
+    text-align: center;
+    padding:50px 42px;
+    border-radius: 3px;
+    box-shadow: 0 0px 5px rgba(71,71,71,.2);
+    margin-bottom: 30px;
+    margin-left: 40px;
+    width:300px ;
+}
+
+.spa1-service-icon img {
+    display: inline-block;
+    color: #50616c;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background: #eef2f6;
+    border-radius: 50%;
+}
+.spa1-service-icon {
+    display: inline-block;
+    color: #50616c;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background: #eef2f6;
+    border-radius: 50%;
+}
+.spa1-service h2 a {
+    font-size:  18px;
+    margin: 35px 0 20px;
+}
+.spa1-service h2 a span {text-transform:  lowercase;}
+.spa1-service p {margin-bottom: 25px;text-transform: initial;}
+.welcome-hero-btn.how-work-btn {
+    display: inline-block;
+    margin: 0;
+    width: 100px;
+    height: 35px;
+    font-size: 12px;
+    background: transparent;
+    color: #767f86;
+    border: 1px solid #d3d6d9;
+    border-radius: 3px;
+}
+
+.spa1-service:hover h2 a,.spa1-service:hover p{color: #fff;}
+.spa1-service:hover .spa1-service-icon{background: #fff;}
+.spa1-service:hover .welcome-hero-btn.how-work-btn{background: #fff;color: #007ff4;}
+.spa1-service:hover{box-shadow: 0 0px 10px rgba(71,71,71,.4);background: #007ff4;}
